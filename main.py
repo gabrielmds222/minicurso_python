@@ -1,4 +1,5 @@
 # Importar a base de dados
+import pandas as pd
 # Visualizar a base de dados
 # Faturamento por loja
 # Quantidade de produtos vendidos por loja
