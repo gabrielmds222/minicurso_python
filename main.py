@@ -18,6 +18,7 @@ print('-' * 50)
 
 # Ticket médio por produto em cada loja
 ticket_medio = (faturamento['Valor Final'] / qtd_produtos_vendidos['Quantidade']).to_frame()
+ticket_medio = ticket_medio.rename(columns={0: 'Ticket Médio'})
 print(ticket_medio)
 
 # Enviar email com relatório
