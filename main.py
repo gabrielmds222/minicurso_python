@@ -25,7 +25,7 @@ outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
 mail.To = 'gabrielmedsilva@outlook.com'
 mail.Subject = 'Relatório de Vendas por Loja'
-mail.HTMLBody = '''
+mail.HTMLBody = f'''
 <p>Prezados,</p>
 
 <p>Segue o Relatório de Vendas por cada Loja.</p>
